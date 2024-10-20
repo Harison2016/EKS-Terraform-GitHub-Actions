@@ -10,7 +10,6 @@ terraform {
     bucket         = "harry-boto3-bucket"
     region         = "us-east-2"
     key            = "eks/terraform.tfstate"
-    #dynamodb_table = "Lock-Files"
     encrypt        = true
   }
 }
